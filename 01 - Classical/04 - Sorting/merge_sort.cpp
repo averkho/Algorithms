@@ -26,7 +26,7 @@ void merge(int arr[], int left_index, int middle_index, int right_index)
     int j {0};
     int k {left_index};
 
-    while (i < n1 && j < n2)
+    while (i < n1 && j < n2) 
     {
         if (L[i] <= R[j])
         {
